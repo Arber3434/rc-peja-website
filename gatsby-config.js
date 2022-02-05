@@ -36,8 +36,8 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "Rotary Club Peja",
+    description: "Official Rotary Club Peja Website",
   },
   pathPrefix: "/gatsby-contentful-starter",
   plugins: [
