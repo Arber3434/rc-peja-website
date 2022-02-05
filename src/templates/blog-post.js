@@ -16,7 +16,7 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <Seo
+        {/* <Seo
           title={post.title}
           description={post.description.childMarkdownRemark.excerpt}
           image={`http:${post.heroImage.resize.src}`}
@@ -61,7 +61,7 @@ class BlogPostTemplate extends React.Component {
               </nav>
             )}
           </div>
-        </div>
+        </div> */}
       </Layout>
     )
   }
