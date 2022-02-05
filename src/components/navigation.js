@@ -9,19 +9,19 @@ const Navigation = () => (
       <span className={styles.logo} />
       <span className={styles.navigationItem}>Rotary Club Peja</span>
     </Link>
-    {/* <ul className={styles.navigation}>
-      <li className={styles.navigationItem}>
+    {/* <ul className={styles.navigation}> */}
+    {/* <li className={styles.navigationItem}>
         <Link to="/" activeClassName="active">
           Home
         </Link>
-      </li>
-      {/* <li className={styles.navigationItem}>
+      </li> */}
+    {/* <li className={styles.navigationItem}>
         <Link to="/blog/" activeClassName="active">
           Blog
         </Link>
       </li> */}
-  </ul> * /}
-  </nav >
+    {/* </ul> */}
+  </nav>
 )
 
 export default Navigation
